@@ -47,7 +47,7 @@
                 discsList: [],
             },
             mounted() {
-                axios.get("http://localhost:80/php-ajax-dischi/php-ajax-dischi/api/discs.php").then(resp => {
+                axios.get("http://localhost/46_php-ajax-dischi/php-ajax-dischi/api/discs.php").then(resp => {
                     this.discsList = resp.data;
                 })
             }
